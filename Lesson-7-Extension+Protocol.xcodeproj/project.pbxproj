@@ -14,6 +14,9 @@
 		A8C3EECA2B9F80910009EC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C3EEC92B9F80910009EC7E /* Assets.xcassets */; };
 		A8C3EECD2B9F80910009EC7E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8C3EECC2B9F80910009EC7E /* Base */; };
 		A8C3EED52B9F80C50009EC7E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EED42B9F80C50009EC7E /* UserProfile.swift */; };
+		A8C3EED72B9F81BB0009EC7E /* UserProfile+Printing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EED62B9F81BB0009EC7E /* UserProfile+Printing.swift */; };
+		A8C3EED92B9F82290009EC7E /* UserProfile+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EED82B9F82290009EC7E /* UserProfile+Info.swift */; };
+		A8C3EEDB2B9F840E0009EC7E /* UserProfile+UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EEDA2B9F840E0009EC7E /* UserProfile+UserType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		A8C3EECC2B9F80910009EC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8C3EECE2B9F80910009EC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C3EED42B9F80C50009EC7E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		A8C3EED62B9F81BB0009EC7E /* UserProfile+Printing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+Printing.swift"; sourceTree = "<group>"; };
+		A8C3EED82B9F82290009EC7E /* UserProfile+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+Info.swift"; sourceTree = "<group>"; };
+		A8C3EEDA2B9F840E0009EC7E /* UserProfile+UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+UserType.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +67,24 @@
 				A8C3EEC02B9F808F0009EC7E /* AppDelegate.swift */,
 				A8C3EEC22B9F808F0009EC7E /* SceneDelegate.swift */,
 				A8C3EEC42B9F808F0009EC7E /* ViewController.swift */,
-				A8C3EED42B9F80C50009EC7E /* UserProfile.swift */,
+				A8C3EEDC2B9F85790009EC7E /* Models */,
 				A8C3EEC62B9F808F0009EC7E /* Main.storyboard */,
 				A8C3EEC92B9F80910009EC7E /* Assets.xcassets */,
 				A8C3EECB2B9F80910009EC7E /* LaunchScreen.storyboard */,
 				A8C3EECE2B9F80910009EC7E /* Info.plist */,
 			);
 			path = "Lesson-7-Extension+Protocol";
+			sourceTree = "<group>";
+		};
+		A8C3EEDC2B9F85790009EC7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3EED42B9F80C50009EC7E /* UserProfile.swift */,
+				A8C3EED62B9F81BB0009EC7E /* UserProfile+Printing.swift */,
+				A8C3EED82B9F82290009EC7E /* UserProfile+Info.swift */,
+				A8C3EEDA2B9F840E0009EC7E /* UserProfile+UserType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +161,9 @@
 				A8C3EED52B9F80C50009EC7E /* UserProfile.swift in Sources */,
 				A8C3EEC52B9F808F0009EC7E /* ViewController.swift in Sources */,
 				A8C3EEC12B9F808F0009EC7E /* AppDelegate.swift in Sources */,
+				A8C3EED72B9F81BB0009EC7E /* UserProfile+Printing.swift in Sources */,
+				A8C3EEDB2B9F840E0009EC7E /* UserProfile+UserType.swift in Sources */,
+				A8C3EED92B9F82290009EC7E /* UserProfile+Info.swift in Sources */,
 				A8C3EEC32B9F808F0009EC7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,13 @@ import Foundation
 
 struct UserProfile {
     
+    var id = UUID().uuidString
+    
     var firstName = "Peter"
     var lastName = "Spiderov"
+    
+    var type: UserType = .admin
+    
 }
 
 // MARK: - Printing
