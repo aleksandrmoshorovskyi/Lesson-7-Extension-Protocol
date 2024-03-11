@@ -11,9 +11,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = UIColor.colorFrom(hex: Pallete.Colors.mainBgColor)
+        
+        printIntValue(intValue: 23)
+        
+        printDoubleValue(doubleValue: 34.0)
+        
+        print("... Generics ...")
+        
+        printAnyCustomerValue(value: 34.0)
+        printAnyCustomerValue(value: "56")
+        printAnyCustomerValue(value: 123)
     }
-
 
 }
 

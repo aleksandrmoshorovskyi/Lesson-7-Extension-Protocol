@@ -17,6 +17,10 @@
 		A8C3EED72B9F81BB0009EC7E /* UserProfile+Printing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EED62B9F81BB0009EC7E /* UserProfile+Printing.swift */; };
 		A8C3EED92B9F82290009EC7E /* UserProfile+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EED82B9F82290009EC7E /* UserProfile+Info.swift */; };
 		A8C3EEDB2B9F840E0009EC7E /* UserProfile+UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EEDA2B9F840E0009EC7E /* UserProfile+UserType.swift */; };
+		A8C3EEDF2B9F86290009EC7E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EEDE2B9F86290009EC7E /* UIColor+Ext.swift */; };
+		A8C3EEE12B9F87700009EC7E /* Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EEE02B9F87700009EC7E /* Pallete.swift */; };
+		A8C3EEE42B9F89670009EC7E /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EEE32B9F89670009EC7E /* Protocol.swift */; };
+		A8C3EEE72B9F910C0009EC7E /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3EEE62B9F910B0009EC7E /* Generics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		A8C3EED62B9F81BB0009EC7E /* UserProfile+Printing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+Printing.swift"; sourceTree = "<group>"; };
 		A8C3EED82B9F82290009EC7E /* UserProfile+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+Info.swift"; sourceTree = "<group>"; };
 		A8C3EEDA2B9F840E0009EC7E /* UserProfile+UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+UserType.swift"; sourceTree = "<group>"; };
+		A8C3EEDE2B9F86290009EC7E /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		A8C3EEE02B9F87700009EC7E /* Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pallete.swift; sourceTree = "<group>"; };
+		A8C3EEE32B9F89670009EC7E /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		A8C3EEE62B9F910B0009EC7E /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +72,13 @@
 		A8C3EEBF2B9F808F0009EC7E /* Lesson-7-Extension+Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				A8C3EEDD2B9F86030009EC7E /* Extension */,
 				A8C3EEC02B9F808F0009EC7E /* AppDelegate.swift */,
 				A8C3EEC22B9F808F0009EC7E /* SceneDelegate.swift */,
 				A8C3EEC42B9F808F0009EC7E /* ViewController.swift */,
 				A8C3EEDC2B9F85790009EC7E /* Models */,
+				A8C3EEE22B9F89490009EC7E /* Protocol */,
+				A8C3EEE52B9F90E20009EC7E /* Generics */,
 				A8C3EEC62B9F808F0009EC7E /* Main.storyboard */,
 				A8C3EEC92B9F80910009EC7E /* Assets.xcassets */,
 				A8C3EECB2B9F80910009EC7E /* LaunchScreen.storyboard */,
@@ -83,8 +94,33 @@
 				A8C3EED62B9F81BB0009EC7E /* UserProfile+Printing.swift */,
 				A8C3EED82B9F82290009EC7E /* UserProfile+Info.swift */,
 				A8C3EEDA2B9F840E0009EC7E /* UserProfile+UserType.swift */,
+				A8C3EEE02B9F87700009EC7E /* Pallete.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A8C3EEDD2B9F86030009EC7E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3EEDE2B9F86290009EC7E /* UIColor+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A8C3EEE22B9F89490009EC7E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3EEE32B9F89670009EC7E /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A8C3EEE52B9F90E20009EC7E /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3EEE62B9F910B0009EC7E /* Generics.swift */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +198,13 @@
 				A8C3EEC52B9F808F0009EC7E /* ViewController.swift in Sources */,
 				A8C3EEC12B9F808F0009EC7E /* AppDelegate.swift in Sources */,
 				A8C3EED72B9F81BB0009EC7E /* UserProfile+Printing.swift in Sources */,
+				A8C3EEE12B9F87700009EC7E /* Pallete.swift in Sources */,
 				A8C3EEDB2B9F840E0009EC7E /* UserProfile+UserType.swift in Sources */,
+				A8C3EEDF2B9F86290009EC7E /* UIColor+Ext.swift in Sources */,
 				A8C3EED92B9F82290009EC7E /* UserProfile+Info.swift in Sources */,
+				A8C3EEE72B9F910C0009EC7E /* Generics.swift in Sources */,
 				A8C3EEC32B9F808F0009EC7E /* SceneDelegate.swift in Sources */,
+				A8C3EEE42B9F89670009EC7E /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
